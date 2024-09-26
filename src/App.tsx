@@ -1,10 +1,10 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import MainGallery from "./components/MainGallery";
-import Navbar from "./components/Navbar";
-import ArtworkDetail from "./components/ArtworkDetail";
-import CommissionsForm from "./components/CommissionsForm";
-import About from "./components/About";
+import MainGallery from "./components/MainGallery.tsx";
+import Navbar from "./components/Navbar.tsx";
+import ArtworkDetail from "./components/ArtworkDetail.tsx";
+import CommissionsForm from "./components/CommissionsForm.tsx";
+import About from "./components/About.tsx";
 
 function App() {
   return (

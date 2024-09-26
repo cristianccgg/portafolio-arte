@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Asegúrate de importar esto si estás usando React Router
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
