@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "title": "Azalea Ashes",
+    "measures1": "44.96 cm x 59.94 cm",
+    "measures": "44.96 cm x 59.94 cm - 17.7 in x 23.6 in",
+    "technique": "Oil on Canvas",
+    "images": [
+      "/images/AzaleaAshes/main.jpg",
+      "/images/AzaleaAshes/IMG_4704.jpg",
+      "/images/AzaleaAshes/IMG_4705.jpg",
+      "/images/AzaleaAshes/IMG_4706.jpg",
+      "/images/AzaleaAshes/IMG_4707.jpg",
+      "/images/AzaleaAshes/IMG_4710.jpg"
+    ],
+    "price": 600,
+    "description": "This is a captivating oil painting that boldly explores the intersection of reality and artistry. In this alluring composition, a male figure takes center stage, bathed in the soft, beguiling glow of a monochromatic pink palette. The absence clothes accentuates his masculinity and vulnerability, making him a captivating subject. The composition is a study in contrasts. The softness of the pink backdrop juxtaposed with the man's raw, masculine presence creates a harmonious tension that draws the viewer's eye. The anticipation of the unlit cigarette adds an element of mystery, inviting viewers to contemplate the figure's thoughts and desires."
+  },
+  {
+    "id": 2,
+    "title": "Crimson Veil",
+    "measures1": "29.97 cm x 39.88 cm",
+    "measures": "29.97 cm x 39.88 cm - 11.8 in x 15.7 in",
+    "technique": "Oil on Wood panel",
+    "images": [
+      "/images/Crimson Veil/Menos calidad/main.jpg",
+      "/images/Crimson Veil/Menos calidad/IMG_4965.jpg",
+      "/images/Crimson Veil/Menos calidad/IMG_4966.jpg",
+      "/images/Crimson Veil/Menos calidad/IMG_4967.jpg",
+      "/images/Crimson Veil/Menos calidad/IMG_4968.jpg",
+      "/images/Crimson Veil/Menos calidad/IMG_4970.jpg"
+    ],
+    "price": 550,
+    "description": "I've crafted a modern oil portrait that captures the essence of both strength and vulnerability. The focal point is a compelling female figure with striking red hair gracefully covering her modesty. The dark green background, infused with subtle abstraction, adds depth and mystery to the composition. I've employed bold, dynamic brushstrokes in key areas, infusing the piece with movement and emotion. The decision to leave the subject partially nude, her breast concealed by flowing hair, invites contemplation on themes of intimacy and resilience. 'Crimson Veil' invites viewers to engage with its fusion of vivid colors, strong strokes, and symbolic nuances. It's an exploration of the delicate balance between power and sensuality, encouraging personal interpretations and a connection to the enigmatic emotions within the portrait."
+  },
+
+  {
+    "id": 3,
+    "title": "Emerald Beauty",
+    "measures1": "29.97 cm x 39.88 cm",
+    "measures": "29.97 cm x 39.88 cm - 11.8 in x 15.7 in",
+    "technique": "Oil on Canvas",
+    "images": [
+      "/images/Emerald beauty/main.jpg",
+      "/images/Emerald beauty/IMG_4689.jpg",
+      "/images/Emerald beauty/IMG_4692.jpg"
+    ],
+    "price": 580,
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism.",
+    "sold": true
+  },
+  {
+    "id": 4,
+    "title": "Elegance in rest",
+    "measures1": "29.97 cm x 39.88 cm",
+    "measures": "29.97 cm x 39.88 cm - 11.8 in x 15.7 in",
+    "technique": "Charcoal on Paper",
+    "images": [
+      "/images/Elegance in Rest/main.jpg",
+      "/images/Elegance in Rest/IMG_4698.jpg",
+      "/images/Elegance in Rest/IMG_4699.jpg",
+      "/images/Elegance in Rest/IMG_4700.jpg",
+      "/images/Elegance in Rest/IMG_4701.jpg"
+    ],
+    "price": 200,
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism."
+  },
+  {
+    "id": 5,
+    "title": "Solitude",
+    "measures1": "14.5 cm x 20.5  cm",
+    "measures": "14.5 cm x 20.5  cm - 5.7 in x 8.1 in",
+    "technique": "Oil on Canvas",
+    "images": ["/images/Estudios/IMG_4848.jpg"],
+    "price": 120,
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism."
+  },
+  {
+    "id": 6,
+    "title": "Cat I",
+    "measures1": "40 cm x 50 cm",
+    "measures": "40 cm x 50 cm - 15.7 in x 19.7 in",
+    "technique": "Oil on Canvas",
+    "images": ["/images/Gato Potato/Menor calidad/IMG_5033.jpg"],
+    "price": "700",
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism.",
+    "sold": true
+  },
+  {
+    "id": 7,
+    "title": "Gravity I",
+    "measures1": "39.88 cm x 29.97 cm",
+    "measures": "39.88 cm x 29.97 cm - 15.7 in x 11.8 in",
+    "technique": "Oil on Canvas",
+    "images": [
+      "/images/Gravity I/Menos calidd/IMG_4666.jpg",
+      "/images/Gravity I/Menos calidd/IMG_4664.jpg"
+    ],
+    "price": 550,
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism."
+  },
+  {
+    "id": 8,
+    "title": "Gravity II",
+    "measures1": "60 cm x 40 cm",
+    "measures": "60 cm x 40 cm - 23.6 in x 15.7 in",
+    "technique": "Oil on Canvas",
+    "images": [
+      "/images/Gravity 2/Menos calidad/IMG_4722.jpg",
+      "/images/Gravity 2/Menos calidad/IMG_4723.jpg",
+      "/images/Gravity 2/Menos calidad/IMG_4724.jpg",
+      "/images/Gravity 2/Menos calidad/IMG_4725.jpg",
+      "/images/Gravity 2/Menos calidad/IMG_4726.jpg",
+      "/images/Gravity 2/Menos calidad/IMG_4727.jpg",
+      "/images/Gravity 2/Menos calidad/IMG_4728.jpg"
+    ],
+    "price": 600,
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism."
+  },
+  {
+    "id": 9,
+    "title": "Gravity III",
+    "measures1": "30 cm x 40 cm",
+    "measures": "30 cm x 40 cm - 11.8 in x 15.7 in",
+    "technique": "Oil on Canvas",
+    "images": [
+      "/images/Gravity III/Menos calidad/IMG_4758.jpg",
+      "/images/Gravity III/Menos calidad/IMG_4759.jpg",
+      "/images/Gravity III/Menos calidad/IMG_4760.jpg",
+      "/images/Gravity III/Menos calidad/IMG_4762.jpg",
+      "/images/Gravity III/Menos calidad/IMG_4763.jpg",
+      "/images/Gravity III/Menos calidad/IMG_4764.jpg",
+      "/images/Gravity III/Menos calidad/IMG_4765.jpg",
+      "/images/Gravity III/Menos calidad/IMG_4766.jpg",
+      "/images/Gravity III/Menos calidad/IMG_4769.jpg"
+    ],
+    "price": 600,
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism."
+  },
+  {
+    "id": 10,
+    "title": "Gravity IV",
+    "measures1": "30 cm x 40 cm",
+    "measures": "30 cm x 40 cm - 11.8 in x 15.7 in",
+    "technique": "Oil on Canvas",
+    "images": [
+      "/images/Gravity IV/Menos calidad/IMG_4772.jpg",
+      "/images/Gravity IV/Menos calidad/IMG_4775.jpg",
+      "/images/Gravity IV/Menos calidad/IMG_4776.jpg",
+      "/images/Gravity IV/Menos calidad/IMG_4780.jpg",
+      "/images/Gravity IV/Menos calidad/IMG_4783.jpg",
+      "/images/Gravity IV/Menos calidad/IMG_4784.jpg"
+    ],
+    "price": 550,
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism."
+  },
+  {
+    "id": 11,
+    "title": "Red Vibes",
+    "measures1": "30 cm x 40 cm",
+    "measures": "30 cm x 40 cm - 11.8 in x 15.7 in",
+    "technique": "Oil on Canvas",
+    "images": [
+      "/images/Red vibes/iloveimg-compressed/Retrato rojo.jpg",
+      "/images/Red vibes/iloveimg-compressed/IMG_4654.jpg",
+      "/images/Red vibes/iloveimg-compressed/IMG_4655.jpg",
+      "/images/Red vibes/iloveimg-compressed/IMG_4656.jpg",
+      "/images/Red vibes/iloveimg-compressed/IMG_4658.jpg"
+    ],
+    "price": 490,
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism."
+  },
+  {
+    "id": 12,
+    "title": "Serente of Shadows",
+    "measures1": "30 cm x 40 cm",
+    "measures": "30 cm x 40 cm - 11.8 in x 15.7 in",
+    "technique": "Oil on Canvas",
+    "images": [
+      "/images/Serenade of Shadows/Menos calidad/IMG_4747.jpg",
+      "/images/Serenade of Shadows/Menos calidad/IMG_4749.jpg",
+      "/images/Serenade of Shadows/Menos calidad/IMG_4750.jpg",
+      "/images/Serenade of Shadows/Menos calidad/IMG_4751.jpg",
+      "/images/Serenade of Shadows/Menos calidad/IMG_4752.jpg",
+      "/images/Serenade of Shadows/Menos calidad/IMG_4753.jpg",
+      "/images/Serenade of Shadows/Menos calidad/IMG_4754.jpg"
+    ],
+    "price": 490,
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism."
+  },
+  {
+    "id": 13,
+    "title": "Cat II",
+    "measures1": "50 cm x 40 cm",
+    "measures": "50 cm x 40 cm - 19.7 in x 15.7 in",
+    "technique": "Oil on Canvas",
+    "images": [
+      "/images/Thommy Final/Baja calidad/IMG_4950.jpg",
+      "/images/Thommy Final/Baja calidad/IMG_4952.jpg",
+      "/images/Thommy Final/Baja calidad/IMG_4956.jpg",
+      "/images/Thommy Final/Baja calidad/IMG_4960.jpg"
+    ],
+    "price": "850",
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism.",
+    "sold": true
+  },
+  {
+    "id": 14,
+    "title": "Cat III",
+    "measures1": "14.5 cm x 20.5  cm",
+    "measures": "14.5 cm x 20.5  cm - 5.7 in x 8.1 in",
+    "technique": "Oil on Canvas",
+    "images": [
+      "/images/Gato Late/IMG_4809.jpg",
+      "/images/Gato Late/IMG_4815.jpg"
+    ],
+    "price": "200",
+    "description": "'Emerald Beauty' is a captivating oil painting that presents a stunning portrait of a beautiful girl. This modern art piece is distinguished by its prominent use of green hues, both in the background and in the depiction of the subject's skin, creating a unique and visually striking composition. The artist's strong and bold brushstrokes infuse the painting with a sense of energy and dynamism. The girl's enchanting features are rendered with remarkable attention to detail, highlighting her delicate and alluring charm. Her eyes, in particular, seem to hold a secret, drawing viewers into her world with an irresistible magnetism.",
+    "sold": true
+  }
+]
