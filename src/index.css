@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif; /* Para el cuerpo */
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif; /* Para los títulos */
+}
+
+.slick-prev {
+  left: 10% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 10% !important;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-prev:before,
+  .slick-next:before {
+    color: black; /* Color de la flecha */
+    font-size: 20px; /* Tamaño de la flecha */
+  }
+}
