@@ -1,3 +1,4 @@
+import React from "react";
 import { useParams } from "react-router-dom";
 import artworks from "../artworks.json";
 import Slider from "react-slick";
@@ -6,10 +7,9 @@ import "slick-carousel/slick/slick-theme.css";
 import PurchaseForm from "./PurchaseForm";
 
 const ArtworkDetail = () => {
-  const { id } = useParams<{ id: string }>(); // Especifica el tipo del id
-  const artwork = artworks.find((art) => art.id === parseInt(id!)); // Usa el operador de aserción no nula
+  const { id } = useParams();
+  const artwork = artworks.find((art) => art.id === parseInt(id));
 
-  // Verificación para asegurar que artwork no sea null
   if (!artwork) {
     return <div>Artwork not found!</div>;
   }
@@ -24,7 +24,7 @@ const ArtworkDetail = () => {
 
   return (
     <div className="w-full h-screen flex flex-col items-center">
-      <div className="p-5 max-w-5xl flex flex-col w-full items-center">
+      <div className="p-5 max-w-5xl flex flex-col  w-full items-center">
         <div className="slider-container max-w-4xl w-full">
           <h1 className="text-3xl font-bold text-center mb-4">
             {artwork.title}

@@ -1,36 +1,22 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com"; // Importar EmailJS
 
-interface Artwork {
-  title: string;
-  technique: string;
-  measures: string;
-  description: string;
-  price: number;
-  images: string[];
-}
-
-interface PurchaseFormProps {
-  artwork: Artwork;
-  className?: string; // Agregar className como prop opcional
-}
-
-const PurchaseForm: React.FC<PurchaseFormProps> = ({ artwork, className }) => {
+const PurchaseForm = ({ artwork }) => {
   const [buyerName, setBuyerName] = useState("");
   const [buyerEmail, setBuyerEmail] = useState("");
   const [buyerAddress, setBuyerAddress] = useState("");
   const [buyerCity, setBuyerCity] = useState("");
   const [buyerCountry, setBuyerCountry] = useState("");
   const [buyerPostalCode, setBuyerPostalCode] = useState("");
-  const [buyerMessage, setBuyerMessage] = useState("");
+  const [buyerMessage, setBuyerMessage] = useState(""); // Estado para el mensaje adicional
   const [quantity, setQuantity] = useState(1);
   const [isFormVisible, setFormVisible] = useState(false);
-  const [isMessageSent, setMessageSent] = useState(false);
+  const [isMessageSent, setMessageSent] = useState(false); // Estado para el mensaje de confirmación
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    const message = `Interés en comprar: ${artwork.title}.\nNombre: ${buyerName}\nEmail: ${buyerEmail}\nDirección: ${buyerAddress}\nCiudad: ${buyerCity}\nPaís: ${buyerCountry}\nCódigo Postal: ${buyerPostalCode}\nCantidad: ${quantity}\nMensaje: ${buyerMessage}`;
+    const message = `Interés en comprar: ${artwork.title}.\nNombre: ${buyerName}\nEmail: ${buyerEmail}\nDirección: ${buyerAddress}\nCiudad: ${buyerCity}\nPaís: ${buyerCountry}\nCódigo Postal: ${buyerPostalCode}\nCantidad: ${quantity}\nMensaje: ${buyerMessage}`; // Incluir el mensaje adicional
 
     const templateParams = {
       from_name: buyerName,
@@ -39,6 +25,7 @@ const PurchaseForm: React.FC<PurchaseFormProps> = ({ artwork, className }) => {
       message: message,
     };
 
+    // Enviar el correo
     emailjs
       .send(
         "service_tk7wuzg",
@@ -48,7 +35,9 @@ const PurchaseForm: React.FC<PurchaseFormProps> = ({ artwork, className }) => {
       )
       .then((response) => {
         console.log("Correo enviado:", response.status, response.text);
+        // Mostrar mensaje de confirmación
         setMessageSent(true);
+        // Reiniciar el formulario
         resetForm();
       })
       .catch((error) => {
@@ -63,20 +52,18 @@ const PurchaseForm: React.FC<PurchaseFormProps> = ({ artwork, className }) => {
     setBuyerCity("");
     setBuyerCountry("");
     setBuyerPostalCode("");
-    setBuyerMessage("");
+    setBuyerMessage(""); // Reiniciar el mensaje adicional
     setQuantity(1);
-    setFormVisible(false);
+    setFormVisible(false); // Cerrar el formulario tras el envío
   };
 
   const toggleFormVisibility = () => {
     setFormVisible(!isFormVisible);
-    setMessageSent(false);
+    setMessageSent(false); // Reiniciar el estado del mensaje al cerrar el formulario
   };
 
   return (
-    <div
-      className={`purchase-form flex flex-col items-center mt-4 ${className}`}
-    >
+    <div className="purchase-form flex flex-col items-center mt-4">
       <h2 className="text-xl font-bold text-center">
         Would you like to have "{artwork.title}"
       </h2>
@@ -166,6 +153,7 @@ const PurchaseForm: React.FC<PurchaseFormProps> = ({ artwork, className }) => {
               value={buyerMessage}
               onChange={(e) => setBuyerMessage(e.target.value)}
               className="border p-2 w-full"
+              rows="4" // Ajusta el número de filas según sea necesario
             />
           </div>
           <button

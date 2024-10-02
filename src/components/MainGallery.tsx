@@ -1,21 +1,17 @@
-import artworks from "../artworks.json"; // Asegúrate de que la ruta sea correcta
+import React from "react";
+import artworks from "../artworks.json";
 import { useNavigate } from "react-router-dom";
 
 const MainGallery = () => {
   const navigate = useNavigate();
 
-  const handleImageClick = (id: number | string) => {
+  const handleImageClick = (id) => {
     navigate(`/artwork/${id}`);
   };
 
-  // Verifica que artworks tenga datos
-  if (!artworks || artworks.length === 0) {
-    return <div>No artworks available.</div>;
-  }
-
   return (
     <div>
-      <h1 className="text-center text-2xl sm:text-4xl font-bold text-[#13212e] mt-5">
+      <h1 className="text-center text-2xl sm:text-4xl font-bold text-[#13212e] mt-5 ">
         Recent Artworks
       </h1>
       <h2 className="text-center">
@@ -28,12 +24,13 @@ const MainGallery = () => {
             className="shadow-xl m-5 md:mb-[40px] relative group"
           >
             <img
-              className="md:max-w-64 h-full w-full object-cover rounded-t-lg sm:rounded-lg cursor-pointer"
-              src={artwork.images[0]} // Asegúrate de que esta URL sea válida
+              className="md:max-w-64 h-full w-full object-cover rounded-t-lg sm:rounded-lg cursor-pointer "
+              src={artwork.images[0]}
               alt={artwork.title}
             />
+            {/* Condición para mostrar el mensaje de "Vendido" */}
             {artwork.sold && (
-              <div className="absolute top-2 left-2 bg-red-500 text-white text-sm font-bold px-4 py-4 rounded-lg">
+              <div className="absolute top-2 left-2 bg-red-500  text-white text-sm font-bold px-4 py-4 rounded-lg">
                 Sold out
               </div>
             )}

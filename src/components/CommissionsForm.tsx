@@ -10,11 +10,7 @@ const CommissionsForm = () => {
   });
   const [isMessageSent, setIsMessageSent] = useState(false); // Nuevo estado para el mensaje
 
-  const handleChange = (
-    e: React.ChangeEvent<
-      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
-  ) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
@@ -22,7 +18,7 @@ const CommissionsForm = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     emailjs
@@ -119,6 +115,7 @@ const CommissionsForm = () => {
             value={formData.details}
             onChange={handleChange}
             required
+            rows="4"
             className="w-full border border-gray-300 p-2 rounded-lg"
           ></textarea>
         </div>
